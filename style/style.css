@@ -1,0 +1,122 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+
+/* header start */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#head{
+    background-color: #1A0B2E;
+    max-width: 1600px;
+    height: 92px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header-nav ul{
+    display: flex;
+    color: #ffffff;
+    gap: 32px;
+}
+.header-nav ul li{
+    list-style: none;
+    
+}
+.header-nav ul li a{
+    text-decoration: none;
+    color:#ffffff ;
+}
+
+.btn{
+    display: flex;
+    width: 135px;
+    height: 44px;
+    align-items: center;
+    gap: 5px;
+    padding: 7px 12px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8 );
+    font-weight: 600;
+    color: #ffffff;
+}
+/* header end */
+
+/* hero start */
+
+#hero{
+    max-width: 1600px;
+    min-height: 760px;
+    margin: 0 auto;
+    background-image: url(../assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.microphone{
+    background-image: url(../assets/hero-circle.png);
+    height: 350px;
+    width: 350px;
+    margin: 0 auto;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-text h1{
+    font-size: 3.8rem;
+    font-weight: 800px;
+    color: #ffffff;
+    margin-top: 40px;
+}
+.hero-text p{
+    color: #ffffff;
+    margin-top: 8px;
+}
+.hero-btn-container{
+    display: flex;
+    gap: 10px;
+    margin: 0 97px;
+}
+.second-btn{
+    display: flex;
+    width: 205px;
+    height: 44px;
+    align-items: center;
+    gap: 5px;
+    padding: 7px 12px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8 );
+    font-weight: 600;
+    color: #ffffff;
+    margin-top: 24px;
+}
+.third-btn{
+    display: flex;
+    width: 205px;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 7px 12px;
+    border-radius: 10px;
+    margin-top: 24px; 
+    background-color: #1A0B2E;
+    border: 1px solid #00FF88;
+}
+.third-btn p{
+    font-weight: 600;
+    color: #00FF88;
+}
