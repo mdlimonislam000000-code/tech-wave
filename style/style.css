@@ -580,11 +580,12 @@ body {
         margin: 0 auto;
         }
         .content-card{
-            max-width: 370px;
-            height: 340;
+            max-width: 350px;
+            height: 330;
+            margin: 0 auto;
         }
         .content-card iframe{
-            max-width: 360px;
+            max-width: 345px;
             margin: 0 auto;
         }
         /* content end */
