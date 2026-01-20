@@ -583,6 +583,10 @@ body {
             max-width: 370px;
             height: 340;
         }
+        .content-card iframe{
+            max-width: 360px;
+            margin: 0 auto;
+        }
         /* content end */
 
         .content-text{
