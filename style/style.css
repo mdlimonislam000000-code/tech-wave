@@ -418,9 +418,11 @@ body {
     text-align: center;
 }
 .footer-icon{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     margin-top: 32px;
-    gap: 40px;
+    margin-left: 70px;
+    gap: 25px;
 }
 /* footer icon mouse hover cursor pointer */
 .footer-icon:hover{
@@ -558,6 +560,7 @@ body {
 
         #content{
             max-width: 440px;
+            min-height: 1945px;
         }
         .content-container{
             max-width: 400px;
@@ -578,11 +581,13 @@ body {
         }
         .content-card{
             max-width: 370px;
+            height: 340;
         }
         /* content end */
 
         .content-text{
             max-width: 440px;
+            margin-top: 10px;
         }
         /* content host end */
         #footer{
@@ -594,17 +599,35 @@ body {
         .footer-image img{
             max-width: 215px;
             height: 32px ;
+            margin-top: 5px;
         }
         .content-host{
             flex-direction: column;
             align-items: center;
+            margin-top: -20px;
         }
         .host-info{
             max-width: 370px;
             text-align: center;
-            margin-top: 2px;
+            /* margin-top: -20px; */
         }
         .host-content-image{
             margin: 0 90px;
+        }
+        .host-info h5{
+            font-size: 1.2rem;
+            font-weight: 500px;
+            margin-top: -40px;
+        }
+        .host-info p{
+            font-size: 1rem;
+            margin-top: -20px;
+            line-height: 20px;
+        }
+        .footer-icon{
+            grid-template-columns: repeat(2, 1fr);
+            margin: 0 auto;
+            gap: 10px;
+            margin-top: 30px;
         }
 }
